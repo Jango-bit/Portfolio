@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PortFolio</title>
+    <link rel="icon" href="image/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" media="screen and (max-width:800px)" href="tablet.css">
+    <link rel="stylesheet" media="screen and (max-width:530px)"  href="phone.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+    <nav class="navbar">
+<ul>
+<li><a href="#home">Home</a></li>
+<li><a href="#about">About Me</a></li>
+<li><a href="#Portfolio">Projects</a></li>
+<li><a href="#service">Services</a></li>
+<li><a href="#contact">Contact Me</a></li>
+</ul>
+</nav>
+<section id="home">
+    <div class="main">
+        <h1 class="headings">I AM <br>AYUSH V</h1>
+        <button class="btn">
+            HIRE ME
+        </button>
+    </div>
+</section>
+
+<section id="about">
+    <h1 class="headings" style="color: white;">ABOUT ME</h1>
+  <div id="pic">
+    <img src ="image/ayusj.jpeg"  alt="">
+    <div id="intro">
+        <h2 class="ayush">AYUSH V</h2>
+        <p style="color: white;"> I'm A WEB DEVELOPER Skilled in HTML,CSS And JavaScript,highly motivated,focusing on building and styling interasctive websites.Currently,I'm refining my skills and exploring new tools,aiming for more advanced project and tools I believe in continuous learning and staying updated with the latest trends in my industry, which helps me evolve and adapt in this fast-paced field. Some of my proudest accomplishments include,I'm always open to exciting new projects and collaborations. Let's connect and create something great together!</p>
+    </div>
+  </div>
+
+</section>
+
+<section id="Portfolio">
+    <h1 class="headings">MY PROJECTS</h1>
+    <div class="gallery">
+        <a href ="https://github.com/Jango-bit/linked-in.git" target="_blank">
+        <img src="image/images LINKED IN OG.png" style="height: 300px ; width: 300px; background: scroll;" alt="">
+        </a>
+        <a href="https://github.com/Jango-bit/navbar-week02.git" target="_blank">
+        <img src="image/W3SCHOL.png" style="height: 300px; width: 300px;" alt="">
+    </a>
+    
+    </div>
+</section>
+<section id="service">
+    <h1 class="headings" style="color: white;">What I'm Excellent At</h1>
+     <div class="row">
+        <div class="box">
+           <img src="image/html.blck.png" alt="">
+            <h1 class="headings">HTML</h1>
+            <p>An HTML document is a file that defines the structure of a webpage using HTML tags. Each HTML document begins with a standard structure that browsers use to display content correctly.</p>
+        </div>
+        <div class="box">
+            <img src="image/css-3.png" alt="">
+            <h1 class="headings">CSS</h1>
+            <p>
+                CSS (Cascading Style Sheets) is used to style and design HTML documents. While HTML provides the structure, CSS is what makes the webpage look good. With CSS, you can change colors, fonts, layouts, and even add animations.
+                
+                </p>
+        </div>
+        <div class="box">
+            <img src="image/java-script.png" alt="">
+            <h1 class="headings">JavaScript</h1>
+            <p>JavaScript (JS) is a programming language used to add interactivity and dynamic features to web pages. While HTML structures the content and CSS styles it, JavaScript makes the webpage interactive (e.g., buttons that respond when clicked, form validations, animations, etc.).</p>
+        </div>
+     </div>
+
+</section>
+<section id="contact">
+    <h1 class="headings">CONTACT</h1>
+    <form action="https://formsubmit.co/vachuayush@gmail.com" method="POST" class="form">
+        <!-- Replace with your Access Key -->
+        <input type="hidden" name="access_key">
+        
+        <!-- Form Inputs -->
+        <input type="text" name="name" placeholder="Your Name" required class="input">
+        <input type="email" name="email" placeholder="Your Email" required class="input">
+        <textarea id="msg" name="message" placeholder="Your Message" required></textarea>
+        
+        <!-- Honeypot Spam Protection -->
+        <input type="text" name="botcheck" class="hidden" style="display: none;" placeholder="Leave this empty">
+        
+        <!-- Custom Confirmation / Success Page -->
+        <input type="hidden" name="redirect" value="https://mywebsite.com/thanks.html">
+        
+        <button  id="send"  type="submit">Submit Form</button>
+        <ul id="social">
+            <li><a href="https://www.facebook.com/login/"><i class="fa-brands fa-facebook"></i></a></li>
+            <li><a href="#"><i class="fa-brands fa-whatsapp"></i></a></li>
+            <li><a href="https://www.instagram.com/accounts/onetap/?next=%2F"><i class="fa-brands fa-instagram"></i></a></li>
+            <li><a href="https://www.linkedin.com/in/ayush-v-955939317/" target="_blank"><i class="fa-brands fa-linkedin"></i></a></li>
+            <li><a href="https://github.com/Jango-bit" target="_blank"><i class="fa-brands fa-github"></i></a></li>
+        </ul>
+
+    </section>
+
+</body>
+</html>
